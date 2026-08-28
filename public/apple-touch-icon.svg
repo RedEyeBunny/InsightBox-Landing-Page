@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <rect width="180" height="180" rx="40" fill="#0B1020"/>
+  <rect x="40" y="50" width="100" height="80" rx="12" fill="#7C5CFF"/>
+  <path d="M90 70L102 90H78L90 70Z" fill="#0B1020"/>
+  <circle cx="90" cy="105" r="8" fill="#6EE7C8"/>
+  <path d="M55 50V38C55 32.4772 59.4772 28 65 28H115C120.523 28 125 32.4772 125 38V50" stroke="#9B7BFF" stroke-width="4" stroke-linecap="round"/>
+  <text x="90" y="155" text-anchor="middle" fill="#F7F7F3" font-family="system-ui, sans-serif" font-size="16" font-weight="700">InsightBox</text>
+</svg>
