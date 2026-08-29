@@ -15,9 +15,9 @@ export const siteConfig = {
   /** Canonical site URL — set before launch */
   url: "",
 
-  /** App install link (Expo build page or direct APK URL) */
+  /** Direct APK download — Expo artifact URL (not the build page) */
   apkDownloadUrl:
-    "https://expo.dev/accounts/hsr2003/projects/instareelmap/builds/92dfe77d-f98e-4a18-9b23-4d01950d5b69",
+    "https://expo.dev/artifacts/eas/92dfe77d-f98e-4a18-9b23-4d01950d5b69.apk",
 
   /** Static QR code image — leave empty to auto-generate a crisp QR from apkDownloadUrl */
   installQrCodeImage: "",
