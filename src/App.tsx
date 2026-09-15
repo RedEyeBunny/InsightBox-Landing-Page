@@ -25,11 +25,11 @@ function App() {
         <title>{siteConfig.seo.title}</title>
         <meta name="description" content={siteConfig.seo.description} />
         <meta name="keywords" content={siteConfig.seo.keywords.join(", ")} />
-        <link rel="canonical" href={canonicalUrl} />
+        <link rel="canonical" href={`${canonicalUrl}/`} />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:url" content={`${canonicalUrl}/`} />
         <meta property="og:title" content={siteConfig.seo.title} />
         <meta property="og:description" content={siteConfig.seo.description} />
         <meta property="og:image" content={ogImage} />

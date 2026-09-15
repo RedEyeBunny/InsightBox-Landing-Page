@@ -5,17 +5,17 @@ const steps = [
   {
     icon: Share2,
     title: "Save it",
-    description: "Share useful content with InsightBox.",
+    description: "Save useful videos, posts, and other social media content to InsightBox.",
   },
   {
     icon: Sparkles,
     title: "Extract the insight",
-    description: "InsightBox identifies the important ideas, context and useful takeaways.",
+    description: "InsightBox organizes the important ideas, context, and useful takeaways.",
   },
   {
     icon: Library,
     title: "Keep the knowledge",
-    description: "Find useful information again when you actually need it.",
+    description: "Find saved information again when you actually need it.",
   },
 ]
 

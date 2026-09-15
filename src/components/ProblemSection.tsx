@@ -55,7 +55,7 @@ export function ProblemSection() {
 
         <AnimatedSection delay={0.2} className="mx-auto max-w-xl text-center">
           <div className="space-y-4 text-base leading-relaxed text-text-muted sm:text-lg">
-            <p>We save interesting things every day.</p>
+            <p>We save useful things from social media every day.</p>
             <p className="text-text-dark">
               A useful idea.
               <br />A business lesson.
@@ -64,7 +64,7 @@ export function ProblemSection() {
               <br />A workout.
               <br />A useful website.
             </p>
-            <p className="font-medium text-text-dark">Then we forget where we saw it.</p>
+            <p className="font-medium text-text-dark">Then we forget where we saved it — and can&apos;t find it again.</p>
           </div>
         </AnimatedSection>
       </div>

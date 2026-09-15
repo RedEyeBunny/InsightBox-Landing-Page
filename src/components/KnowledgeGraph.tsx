@@ -45,8 +45,8 @@ export function KnowledgeGraph() {
             One useful thing leads to another.
           </h2>
           <p className="mx-auto max-w-2xl text-base leading-relaxed text-white/60 sm:text-lg">
-            InsightBox is designed to grow from a collection of saved content into a
-            connected map of the things you actually care about.
+            InsightBox is designed to grow from saved social media content into a
+            connected map of the things you actually want to remember.
           </p>
         </AnimatedSection>
 

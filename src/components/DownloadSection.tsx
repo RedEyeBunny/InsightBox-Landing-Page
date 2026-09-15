@@ -16,8 +16,8 @@ export function DownloadSection() {
               Your saved content shouldn&apos;t disappear.
             </h2>
             <p className="mb-8 text-base leading-relaxed text-white/60 sm:text-lg">
-              Download InsightBox and start turning the things you discover online into
-              knowledge worth keeping.
+              Download InsightBox and start turning useful things you discover on social
+              media into knowledge you can find again.
             </p>
             <DownloadButton size="lg" fullWidth className="sm:w-auto">
               Install on Android

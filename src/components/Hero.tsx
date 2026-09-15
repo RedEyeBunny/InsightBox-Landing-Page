@@ -24,12 +24,12 @@ export function Hero() {
             </div>
 
             <h1 className="mb-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-[4.5rem] lg:leading-[1.05]">
-              Stop saving things you&apos;ll never find again.
+              Remember what you discover on social media.
             </h1>
 
             <p className="mb-8 max-w-lg text-lg leading-relaxed text-white/70 sm:text-xl">
-              InsightBox turns useful videos, posts and discoveries into organised
-              knowledge you can actually come back to.
+              InsightBox turns useful videos, posts, and discoveries from social media
+              into organized, searchable knowledge you can actually come back to.
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">

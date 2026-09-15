@@ -13,7 +13,7 @@ export const siteConfig = {
   tagline: "Turn the Internet Into Your Knowledge Library",
 
   /** Canonical site URL — set before launch */
-  url: "",
+  url: "https://useinsightbox.com",
 
   /** Direct APK download — Expo artifact URL (not the build page) */
   apkDownloadUrl:
@@ -30,13 +30,13 @@ export const siteConfig = {
 
   /** SEO */
   seo: {
-    title: "InsightBox — Turn the Internet Into Your Knowledge Library",
+    title: "InsightBox — Remember What You Save From Social Media",
     description:
-      "InsightBox helps you turn useful videos, posts and online discoveries into organised knowledge you can actually find and use again.",
+      "Turn useful things you discover on social media into organized, searchable knowledge you can come back to later.",
     keywords: [
       "knowledge management app",
       "save useful content",
-      "organise saved content",
+      "organize saved content",
       "personal knowledge app",
       "save Instagram reels",
       "remember useful content",

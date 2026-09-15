@@ -76,22 +76,22 @@ export const faqItems: FAQItem[] = [
 export const whyCards = [
   {
     title: "Remember",
-    description: "Stop losing useful ideas inside endless saved posts.",
+    description: "Stop losing useful ideas inside endless social media saves.",
     icon: "brain" as const,
   },
   {
-    title: "Organise",
-    description: "Turn scattered content into structured knowledge.",
+    title: "Organize",
+    description: "Turn scattered saved content into organized knowledge.",
     icon: "layers" as const,
   },
   {
     title: "Revisit",
-    description: "Find useful information when you actually need it.",
+    description: "Find useful saved information when you actually need it.",
     icon: "search" as const,
   },
   {
     title: "Act",
-    description: "Turn useful content into actionable takeaways instead of passive consumption.",
+    description: "Turn useful saved content into actionable takeaways instead of passive consumption.",
     icon: "zap" as const,
   },
 ]
