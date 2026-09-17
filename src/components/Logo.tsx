@@ -7,7 +7,7 @@ export function Logo({ className = "", variant = "dark" }: LogoProps) {
   const textColor = variant === "light" ? "text-white" : "text-text-dark"
 
   return (
-    <a href="#" className={`inline-flex items-center gap-2.5 ${className}`} aria-label="InsightBox home">
+    <a href="/" className={`inline-flex items-center gap-2.5 ${className}`} aria-label="InsightBox home">
       <img
         src="/logo.jpg"
         alt=""

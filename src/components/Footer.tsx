@@ -12,18 +12,23 @@ export function Footer() {
         <nav aria-label="Footer navigation">
           <ul className="flex flex-wrap justify-center gap-6">
             <li>
-              <a href="#how-it-works" className="text-sm text-text-muted hover:text-text-dark">
+              <a href="/#how-it-works" className="text-sm text-text-muted hover:text-text-dark">
                 How it works
               </a>
             </li>
             <li>
-              <a href="#features" className="text-sm text-text-muted hover:text-text-dark">
+              <a href="/#features" className="text-sm text-text-muted hover:text-text-dark">
                 Features
               </a>
             </li>
             <li>
-              <a href="#download" className="text-sm text-text-muted hover:text-text-dark">
+              <a href="/#download" className="text-sm text-text-muted hover:text-text-dark">
                 Download
+              </a>
+            </li>
+            <li>
+              <a href="/blog/" className="text-sm text-text-muted hover:text-text-dark">
+                Blog
               </a>
             </li>
           </ul>

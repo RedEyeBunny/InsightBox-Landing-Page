@@ -29,6 +29,36 @@
       content="Turn useful things you discover on social media into organized, searchable knowledge you can come back to later."
     />
     <meta name="twitter:image" content="https://useinsightbox.com/og-image.svg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://useinsightbox.com/#organization",
+            "name": "InsightBox",
+            "url": "https://useinsightbox.com/",
+            "logo": "https://useinsightbox.com/logo.jpg"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://useinsightbox.com/#website",
+            "name": "InsightBox",
+            "url": "https://useinsightbox.com/",
+            "publisher": { "@id": "https://useinsightbox.com/#organization" }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://useinsightbox.com/#app",
+            "name": "InsightBox",
+            "applicationCategory": "ProductivityApplication",
+            "operatingSystem": "Android",
+            "url": "https://useinsightbox.com/"
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

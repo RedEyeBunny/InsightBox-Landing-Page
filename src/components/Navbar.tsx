@@ -4,9 +4,10 @@ import { Logo } from "./Logo"
 import { DownloadButton } from "./DownloadButton"
 
 const navLinks = [
-  { label: "How it works", href: "#how-it-works" },
-  { label: "Features", href: "#features" },
-  { label: "Why InsightBox", href: "#why" },
+  { label: "How it works", href: "/#how-it-works" },
+  { label: "Features", href: "/#features" },
+  { label: "Why InsightBox", href: "/#why" },
+  { label: "Blog", href: "/blog/" },
 ]
 
 export function Navbar() {
