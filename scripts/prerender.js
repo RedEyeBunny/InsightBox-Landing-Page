@@ -76,8 +76,18 @@ try {
     const page = injectAppHtml(template, html)
     const outfile = urlToFile(url)
     fs.mkdirSync(path.dirname(outfile), { recursive: true })
+    if (path.basename(outfile) !== "index.html") {
+      throw new Error(`Refusing to overwrite non-page file during prerender: ${outfile}`)
+    }
     fs.writeFileSync(outfile, page)
     console.log(`prerendered ${url} -> ${path.relative(dist, outfile)}`)
+  }
+
+  for (const file of ["sitemap.xml", "robots.txt"]) {
+    const from = path.join(root, "public", file)
+    const to = path.join(dist, file)
+    fs.copyFileSync(from, to)
+    console.log(`copied public/${file} -> ${file}`)
   }
 } finally {
   await vite.close()
