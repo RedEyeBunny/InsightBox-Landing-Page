@@ -1,5 +1,6 @@
 import type { ReactNode } from "react"
 import { ShortFormContentLearningArticle } from "./articles/ShortFormContentLearning"
+import { InformationOverloadArticle } from "./articles/InformationOverload"
 
 export interface BlogPost {
   slug: string
@@ -10,6 +11,14 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "information-overload",
+    title: "Information Overload: How to Consume Less and Remember More",
+    description:
+      "Practical ways to reduce information overload, decide what is worth keeping, and make useful information easier to remember and use.",
+    date: "2026-09-18",
+    body: <InformationOverloadArticle />,
+  },
   {
     slug: "short-form-content-learning",
     title: "Short-Form Content, Learning and Why Saving Information Isn't Useful Enough",

@@ -11,6 +11,7 @@ const requiredFiles = [
   "robots.txt",
   "blog/index.html",
   "blog/short-form-content-learning/index.html",
+  "blog/information-overload/index.html",
 ]
 
 for (const file of requiredFiles) {

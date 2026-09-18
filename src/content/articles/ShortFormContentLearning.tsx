@@ -40,6 +40,16 @@ export function ShortFormContentLearningArticle() {
         Eventually, your saved folder becomes a collection of hundreds of things that you once
         thought were worth remembering.
       </p>
+      <p>
+        That pile of saved content is a form of{" "}
+        <a
+          href="/blog/information-overload/"
+          className="font-semibold text-violet hover:text-violet-bright focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet"
+        >
+          information overload
+        </a>
+        , and it is worth being more selective about what you keep.
+      </p>
       <p>But how many of them do you actually remember?</p>
       <p>
         And more importantly, <strong>how many can you actually find when you need them?</strong>
