@@ -17,7 +17,7 @@ export const siteConfig = {
 
   /** Direct APK download — Expo artifact URL (not the build page) */
   apkDownloadUrl:
-    "https://expo.dev/artifacts/eas/DOMqhSMjmlczz3YJaAXRVb4ZlUgllmCuZfEbzBYFYEI.apk",
+    "https://expo.dev/artifacts/eas/XbSY08qW-WaolTnDXhWP2xe4DqpSKdynteNKKq9zaSY.apk",
 
   /** Static QR code image — leave empty to auto-generate a crisp QR from apkDownloadUrl */
   installQrCodeImage: "",
